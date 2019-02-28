@@ -20,9 +20,12 @@
     </extensions>
 
     <actions>
-        <group id="MyPlugin.SampleMenu" text="Greeting" description="Greeting menu">
+        <group id="com.yayayahei.CodeQualityMainManue" text="CodeQuality" description="Code quality main menu">
             <add-to-group group-id="MainMenu" anchor="last"/>
-            <action id="Myplugin.Textboxes" class="HelloAction" text="Hello" description="Says hello"/>
+            <action id="com.yayayahei.CodeQualityAction" class="com.yayayahei.CodeQualityAction"  text="Code Quality" description="CodeQuality menu">
+            </action>
         </group>
+
+
     </actions>
 </idea-plugin>
